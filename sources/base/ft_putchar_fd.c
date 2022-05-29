@@ -14,5 +14,11 @@
 
 void	ft_putchar_fd(char c, int fd)
 {
+#if defined(_MSC_VER)
+	_write(fd, &c, 1);
+#else
 	write(fd, &c, 1);
+#endif // WIN32
+
+	
 }

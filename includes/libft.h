@@ -14,8 +14,12 @@
 # define LIBFT_H
 # include <string.h>
 # include <stdlib.h>
+#if defined(_MSC_VER)
+#include <io.h>
+#else
 # include <unistd.h>
-# include <fcntl.h>
+#endif
+//# include <fcntl.h>
 # define BUFF_SIZE 1
 # define WHITESPACES "\t\n\v\f\r "
 # define ABS(i) (i > 0 ? i : -i)
@@ -24,8 +28,11 @@
 # define SUCCESS 1
 # define ERROR 0
 
+#if defined(_MSC_VER)
+#else
 typedef u_int32_t uint32_t;
 typedef u_int16_t uint16_t;
+#endif 
 
 typedef	struct		s_list
 {

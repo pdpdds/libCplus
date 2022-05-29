@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="cvector">
+      <UniqueIdentifier>{ce839347-5ff2-433a-a9dd-342a650e798f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ft_atoi.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_bzero.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_charreplace.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_charsetreplace.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_count_if.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_countchar.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_endc.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_fabs.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_getnextvar.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_howmany.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_intsort.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_isalnum.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_isalpha.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_isascii.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_ischarin.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_isdigit.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_isprint.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_itoa.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstadd.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstclear.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstdel.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstdelone.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstiter.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstmap.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstnew.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_lstpush.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_match.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_match_parts.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memalloc.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memccpy.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memchr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memcmp.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memcpy.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memdel.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memmove.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_memset.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_pow.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_power_positif.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putchar.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putchar_fd.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putendl.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putendl_fd.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putnbr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putnbr_base.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putnbr_fd.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putstr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putstr_fd.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putstrf.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_putwchar.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_removechars.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_replace.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_scanstr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_scanstr_parts.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_searchreplace.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_sqrt.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_startc.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strcat.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strchr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strcjoin.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strclr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strcmp.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strcpy.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strdel.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strdup.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strequ.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_striter.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_striteri.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strjoin.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strlcat.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strlen.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strmap.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strmapi.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strncat.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strncmp.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strncpy.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strnequ.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strnew.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strnstr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strrchr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strreplace.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strsort.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strsplit.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strsplitcharset.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strsplitescape.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strstr.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strsub.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strtouper.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strtrim.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strunescape.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_strzero.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_tabfree.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_tabsize.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_tolower.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_toupper.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_unescape_args.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_wcharlen.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_wstrlen.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_wstrlen_min.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cvector\cvector.c">
+      <Filter>cvector</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

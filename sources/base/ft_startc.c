@@ -14,7 +14,11 @@
 
 void	ft_startc(int colorcode)
 {
+#if defined(_MSC_VER)
+	ft_putstr("\\e[");
+#else
 	ft_putstr("\e[");
+#endif
 	ft_putnbr(colorcode);
 	ft_putchar('m');
 }

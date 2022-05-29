@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	*ft_strunescape(char *str)
+/*char* ft_strunescape(char* str)
 {
 	char	*result;
 	size_t	counter;
@@ -37,4 +37,4 @@ char	*ft_strunescape(char *str)
 		result[counter++] = str[i];
 	}
 	return (result);
-}
+}*/

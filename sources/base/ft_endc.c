@@ -14,5 +14,11 @@
 
 void	ft_endc(void)
 {
+#if defined(_MSC_VER)
+	ft_putstr("\\e[39m");
+#else
 	ft_putstr("\e[39m");
+#endif // WIN32
+
+	
 }

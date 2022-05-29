@@ -2,3 +2,7 @@ tests
 tests/*
 .vscode
 .vscode/*
+.vs
+Debug
+Release
+x64
