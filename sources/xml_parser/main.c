@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "xml_parser.h"
+#include <fcntl.h>
 
 const t_xml_part_type	g_xml_parser_syntax_table[] = {
 	{.type = TYPE_TAGNAME, .function = &ft_xml_parse_tagname},
